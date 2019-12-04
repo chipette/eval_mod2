@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Bello-Pro";
+  src: url("./fonts/BelloPro.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/BelloPro.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/BelloPro.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/BelloPro.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/BelloPro.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/BelloPro.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/BelloPro.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
