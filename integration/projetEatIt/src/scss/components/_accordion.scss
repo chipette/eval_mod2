@@ -31,9 +31,9 @@
   }
 
 
-  .card {
+  .card_accordion{
     box-shadow: 0 0 24px 0 rgba(236, 134, 62, 0);
-    padding: 15px 15px;
+    padding: 15px 30px;
     background-color: $orange60;
     border: none;
 
@@ -60,7 +60,7 @@
       }
     }
 
-    .card-body {
+    .card-body-accordion {
       margin-top: 24px;
       color: $blue;
       font-size: 14px;

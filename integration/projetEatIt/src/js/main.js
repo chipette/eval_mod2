@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import 'bootstrap'; // j'importe bootstrap.js depuis node_modules
-// import owlCarousel from 'owl.carousel'; /* si il y a un carousel */
+import owlCarousel from 'owl.carousel';
+
 
 
 
@@ -46,6 +47,27 @@ $(document).ready(function () {
       remainingBtn.removeClass("expanded");
     });
   }
+
+
+
+  $(".carousel_partenaires").owlCarousel({
+    items: 3,
+    loop: true,
+    margin: 30,
+    nav: true,
+    navText: ['<i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>','<i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>'],
+    responsive:{
+      0:{
+          items:1
+      },
+      768:{
+          items:2
+      },
+      992:{
+          items:3
+      }
+    } 
+  });
 
 
 });
