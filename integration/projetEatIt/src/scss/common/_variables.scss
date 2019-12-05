@@ -9,13 +9,22 @@ $fontDefault: 'pier_sansregular', 'Trebuchet MS', sans-serif;
 $fontTitle: "Bello-Pro", $fontDefault;
 
 // Colors
-$bleu  : #2e4c9c;
+$blue  : #2e4c9c;
 $orange: #ed863e;
-$rose  : #c0398d;
+$pink  : #c0398d;
 
 $orange60: #f4b68b;
 $orange20: #fbe7db;
-     
-$primary: $bleu;
 
-// $linkColor: $color;
+$colors: 
+  (
+    "blue":       $blue,
+    "pink":       $pink,
+    "orange":     $orange,
+);
+
+$primary  : $blue;
+$secondary: $orange;
+$info     : $pink;
+
+$link-color: $blue;
