@@ -9,13 +9,21 @@
   color : $link-color;
   font-size: 1.125rem;
   font-weight: bold;
-  margin-left: $marge
+  margin-left: $marge;
+
+  &:hover {
+    color: $white;
+  }
 }
 
 .navbar-light .navbar-brand {
   font-family: $fontTitle;
   color: #ffffff;
   font-size: 2.25rem;
+
+  &:hover {
+    color: $pink;
+  }
 }
 
 .bg-orange {

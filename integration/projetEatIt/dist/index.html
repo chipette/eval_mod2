@@ -64,10 +64,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Eat'Ecolo!</a> 
+              <a class="nav-link" href="#eatEcolo">Eat'Ecolo!</a> 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nos restaurants partenaires</a>
+              <a class="nav-link" href="#restos">Nos restaurants partenaires</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Mes menus favoris</a>
@@ -95,10 +95,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Eat'Ecolo!</a> 
+              <a class="nav-link" href="#eatEcolo">Eat'Ecolo!</a> 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nos restaurants partenaires</a>
+              <a class="nav-link" href="#restos">Nos restaurants partenaires</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Mes menus favoris</a>
@@ -117,7 +117,7 @@
 
     <main>
 
-      <section class="eatEcolo">
+      <section class="eatEcolo" id="eatEcolo">
         <div class="container">
           <h1 class="text-center">Eat'Ecolo!</h1>
 
@@ -169,13 +169,12 @@
         </div><!--/container-->
       </section>
 
-      <section class="partenaires">
+      <section class="partenaires" id="restos">
         <img class="elementGraphique" src="images/elementsGraphiquesFinsBlc.svg" width="1196" alt="lignes">
         <div class="container">
           <h1 class="text-center">Nos restaurants Partenaires</h1>
           <p class="text-center mt-5">Une envie particulière pour le repas? </br> Trouvez le style de menus qui vous plait aujourd’hui avec nos restaurants partenaires.</p>
 
-          <div class="container">
               <div class="js-accordion mt-5">
             
                 <div class="card card_accordion">
@@ -188,7 +187,7 @@
                   <div class="collapse">
                     <div class="card-body">
 
-                        <div class="carousel_partenaires owl-carousel px-sm- mt-5"> <!--je mets une marge pour laisser la place à mes flèches-->
+                        <div class="carousel_partenaires owl-carousel px-sm- mt-5 center"> 
                           <article class="card border-0">
                             <a href="restoI1.html"><img src="images/pizza2.jpg" class="card-img-top" alt="brochettes"></a>
                             <div class="card-body">
@@ -233,7 +232,7 @@
             
                   <div class="collapse">
                     <div class="card-body-accordion">
-                        <div class="carousel_partenaires owl-carousel px-sm- mt-5"> <!--je mets une marge pour laisser la place à mes flèches-->
+                        <div class="carousel_partenaires owl-carousel px-sm- mt-5"> 
                           <article class="card border-0">
                             <a href="restoA1.html"><img src="images/menu_brochettes2.jpg" class="card-img-top" alt="brochettes"></a>
                             <div class="card-body">
@@ -305,7 +304,7 @@
                     </div>
                   </div>
                 </div>
-                
+              </div><!--/accordion--> 
 
         </div><!--/container-->
       </section>
@@ -319,7 +318,7 @@
                 <div class="icone"><img class="mx-auto toque" src="images/choix_resto.svg" width="100" height="100" alt="icone toque"></div>
                 <p>1.</p> 
                 <p>Choisissez votre restaurant</p>
-                <p clas="mb-5">Nos 3 partenaires, Sushi Market, Basilic & Co et Cedar Rolls ont été sélectionnés pour la qualité 
+                <p class="mb-5">Nos 3 partenaires, Sushi Market, Basilic & Co et Cedar Rolls ont été sélectionnés pour la qualité 
                   de leurs ingrédients et leurs recettes.
                 </p>
             </div>
@@ -327,7 +326,7 @@
             <div class="etape"><!-- étape 2 -->
               <div class="icone"><img class="mx-auto cloche" src="images/choix_repas.svg"  width="100" height="100" alt="icone cloche repas"></div> <!-- je crée une div pour y insérer l'icone car .svg et donc pas de dimension -->
               <p>2.</p> 
-              <p">Choisissez les plats, boissons et desserts.</p>
+              <p>Choisissez les plats, boissons et desserts.</p>
             </div>
   
             <div class="etape"><!-- étape 3 -->
@@ -343,14 +342,17 @@
   
         </div><!--/container -->
       </section>
-
-
-
-
-
     </main>
 
+    <footer>
+      <div class="container">
 
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logoRVB.svg" width="344" height="119" alt="logo">
+        </a>
+        
+      </div>
+    </footer>
 
 
 
