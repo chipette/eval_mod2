@@ -1,7 +1,12 @@
+.home main {
+  background: url(../images/degrade3.svg);
+  background-size: cover;
+}
+
 
 section.eatEcolo {
-  background: url(../images/degrade.svg) no-repeat;
-  background-size: cover;
+  // background: url(../images/degrade.svg) no-repeat;
+  // background-size: cover;
 
   .row {
     padding-top: 80px;
@@ -28,8 +33,8 @@ section.eatEcolo {
 }
 
 section.partenaires {
-  background: url(../images/degrade2.svg) no-repeat;
-  background-size: cover;
+  // background: url(../images/degrade2.svg) no-repeat;
+  // background-size: cover;
   position: relative;
   
   @media (min-width: $bpMedium){
@@ -49,8 +54,6 @@ section.partenaires {
 }
 
 section.process {
-
-
   .etape_process {
     padding-top: 80px;
     display: flex;
@@ -100,6 +103,59 @@ section.process {
     @media (min-width: $bpMedium) {
       font-size: 3.5rem;
     }
+  }
+}
+
+section.avis {
+  position: relative;
+
+  fieldset {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 24px;
+
+    @media (min-width: $bpMedium){
+      margin-top: 80px;
+    }
+  }
+
+  @media (min-width: $bpMedium){
+    padding-top: 140px;
+  }
+}
+
+.top_form {
+  display: flex;
+  flex-direction: row;
+
+  h3 {
+    margin-bottom: 0px;
+  }
+
+  .btn_avis {
+    margin-left: auto;
+  }
+}
+
+.body_form {
+  display: flex;
+  flex-direction: column;
+
+  .form-check.form-check-inline {
+    margin-bottom: 15px;
+  
+    &:nth-of-type(1) {
+      margin-top: 30px;
+
+      @media (min-width: $bpMedium){
+        margin-top: 0px;
+      }
+    }
+  }
+
+  @media (min-width: $bpMedium){
+    flex-direction: row;
   }
 }
 

@@ -1,8 +1,13 @@
-.main_nav {
+.main_nav,
+.mobile_nav {
 
   .container {
   display: flex;
   }
+}
+
+.main_nav {
+  box-shadow: 0px 3px 5px $pink;
 }
 
 .navbar-light .navbar-nav .nav-link {

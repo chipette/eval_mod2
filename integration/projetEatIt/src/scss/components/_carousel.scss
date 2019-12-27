@@ -1,6 +1,8 @@
-.carousel_partenaires .card {
+.carousel_partenaires .card,
+.carousel_avis .card {
   border-radius: 18px;
   background-color: $white;
+  width: 100%;
 }
 
 .card-img, .card-img-top {
@@ -22,5 +24,16 @@
 
   button.owl-next {
     right: -2rem;
+  }
+}
+
+.card-body .auteur {
+  display: flex;
+  flex-direction: row;
+
+  h2 {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 1.75rem;
   }
 }

@@ -1,13 +1,8 @@
 
 @font-face {
   font-family: "Bello-Pro";
-  src: url("./fonts/BelloPro.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/BelloPro.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./fonts/BelloPro.otf") format("opentype"), /* Open Type Font */
-    url("./fonts/BelloPro.svg") format("svg"), /* Legacy iOS */
-    url("./fonts/BelloPro.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./fonts/BelloPro.woff") format("woff"), /* Modern Browsers */
-    url("./fonts/BelloPro.woff2") format("woff2"); /* Modern Browsers */
+  src: url("./fonts/BelloPro.woff") format("woff"), /* Modern Browsers */
+       url("./fonts/BelloPro.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
@@ -15,8 +10,8 @@
 
 @font-face {
   font-family: 'pier_sansbold';
-  src: url('piersans-bold-webfont.woff2') format('woff2'),
-       url('piersans-bold-webfont.woff') format('woff');
+  src: url('./fonts/piersans-bold-webfont.woff2') format('woff2'),
+       url('./fonts/piersans-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -25,8 +20,8 @@
 
 @font-face {
   font-family: 'pier_sansbold_italic';
-  src: url('piersans-bolditalic-webfont.woff2') format('woff2'),
-       url('piersans-bolditalic-webfont.woff') format('woff');
+  src: url('./fonts/piersans-bolditalic-webfont.woff2') format('woff2'),
+       url('./fonts/piersans-bolditalic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -35,8 +30,8 @@
 
 @font-face {
   font-family: 'pier_sansitalic';
-  src: url('piersans-italic-webfont.woff2') format('woff2'),
-       url('piersans-italic-webfont.woff') format('woff');
+  src: url('./fonts/piersans-italic-webfont.woff2') format('woff2'),
+       url('./fonts/piersans-italic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -45,8 +40,8 @@
 
 @font-face {
   font-family: 'pier_sansregular';
-  src: url('piersans-regular-webfont.woff2') format('woff2'),
-       url('piersans-regular-webfont.woff') format('woff');
+  src: url('./fonts/piersans-regular-webfont.woff2') format('woff2'),
+       url('./fonts/piersans-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 

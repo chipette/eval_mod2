@@ -54,14 +54,14 @@
       
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-bottom d-block d-md-none bg-orange main_nav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-bottom d-block d-md-none bg-orange mobile_nav">
       <div class="container">
 
         <a class="navbar-brand" href="index.html">Eat !t</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMobile" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNavMobile">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#eatEcolo">Eat'Ecolo!</a> 
@@ -231,12 +231,13 @@
                   </div>
             
                   <div class="collapse">
-                    <div class="card-body-accordion">
+                    <div class="card-body">
+
                         <div class="carousel_partenaires owl-carousel px-sm- mt-5"> 
                           <article class="card border-0">
                             <a href="restoA1.html"><img src="images/menu_brochettes2.jpg" class="card-img-top" alt="brochettes"></a>
                             <div class="card-body">
-                              <h3 class="card-title"><a href="resto1.html">Sushi Market</a></h3>
+                              <h3 class="card-title"><a href="restoA1.html">Sushi Market</a></h3>
                               <p class="card-text">Découvrez nos créations, inspirées des traditions japonaises, une cuisine saine aux compositions subtiles, agrémentées d’une touche d’inventivité.
                                 </p>
                               <a href="resto1.html" class="btn btn-info badge-pill">Consulter la carte</a>
@@ -277,7 +278,7 @@
                   </div>
             
                   <div class="collapse">
-                    <div class="card-body-accordion">
+                    <div class="card-body">
                       <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
                       on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
                       raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
@@ -295,7 +296,7 @@
                   </div>
             
                   <div class="collapse">
-                    <div class="card-body-accordion">
+                    <div class="card-body">
                       <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
                       on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
                       raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
@@ -342,13 +343,99 @@
   
         </div><!--/container -->
       </section>
+
+      <section class="avis">
+        <img class="elementGraphique" src="images/elementsGraphiquesFinsOrg.svg" width="1196" alt="lignes">
+        <div class="container">
+          <h1 class="text-center">Ce sont les Eaters qui en parlent le mieux!</h1>
+
+          <fieldset>
+            <div class="top_form">
+              <h3>Avis (  )</h3> <!-- php affichage nb_avis entre les () -->
+              <a href="#" class="btn btn-info badge-pill btn_avis">Ecrivez un avis</a>
+            </div>
+
+            <div class="body_form">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="5">
+                <label class="form-check-label" for="inlineCheckbox1">Ravi ( )</label> <!-- php affichage nb_5 entre ()-->
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="4">
+                <label class="form-check-label" for="inlineCheckbox2">Très bien ( )</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="3">
+                <label class="form-check-label" for="inlineCheckbox1">Moyen ( )</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="2">
+                <label class="form-check-label" for="inlineCheckbox2">Médiocre ( )</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="1">
+                <label class="form-check-label" for="inlineCheckbox1">Mécontent ( )</label>
+              </div>
+            </div>
+
+            <div class="carousel_avis owl-carousel px-sm- mt-5 center"> 
+                <article class="card border">
+                  <a href="#"><img src="images/pizza2.jpg" class="card-img-top" alt="photo_plat"></a>
+                  <div class="card-body">
+                    <div class="auteur">
+                      <img src="images/favicon2.png" style="width:32px; height:32px;">
+                      <h2>Aurélien N.</h2> <!-- php récupérer nom auteur avis -->
+                    </div>
+                    <h3 class="card-title">Repas servis chaud</h3> 
+                    <p class="card-text">Service rapide et coursiers agréables.
+                        On a pû manger chaud de très bonnes pizzas!
+                        Je recommande!
+                    </p>
+                    <a href="#" class="card-link">Lire la suite</a>
+                  </div>
+                </article>
+                
+                <article class="card border">
+                  <div class="card-body">
+                    <div class="auteur">
+                      <img src="images/favicon2.png" style="width:32px; height:32px;">
+                      <h2>Ludivine522</h2> <!-- php récupérer nom auteur avis -->
+                    </div>
+                    <h3 class="card-title">Service un peu long</h3> 
+                    <p class="card-text">Temps de service conforme à celui indiqué mais que je trouve long          malgré tout. Je pense que cela s’explique qu’ils livrent en vélo.
+                        Livreur sympathique, et bonne qualité des repas.
+                    </p>
+                    <a href="#" class="card-link">Lire la suite</a>
+                  </div>
+                </article>
+                
+                <article class="card border">
+                  <a href="#"><img src="images/falafel2.jpg" class="card-img-top" alt="photo_plat"></a>
+                  <div class="card-body">
+                    <div class="auteur">
+                      <img src="images/favicon2.png" style="width:32px; height:32px;">
+                      <h2>Capucine L.</h2> <!-- php récupérer nom auteur avis -->
+                    </div>
+                    <h3 class="card-title">Bonne découverte</h3> 
+                    <p class="card-text">Je n’avais jamais osé faire appel à un service de livraison de peur       d’être déçue ou de manger froid.
+                        Bonne surprise! Eat it est un service fiable, et les coursiers … 
+                    </p>
+                    <a href="#" class="card-link">Lire la suite</a>
+                  </div>
+                </article>
+              </div><!--/caroussel-->
+          </fieldset>
+
+        </div>
+      </section>
+
     </main>
 
     <footer>
       <div class="container">
 
         <a class="navbar-brand" href="index.html">
-          <img src="images/logoRVB.svg" width="344" height="119" alt="logo">
+          <img src="images/logoBleu.svg" width="344" height="119" alt="logo">
         </a>
         
       </div>
