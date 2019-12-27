@@ -2,7 +2,7 @@
 .carousel_avis .card {
   border-radius: 18px;
   background-color: $white;
-  width: 100%;
+  max-width: 280px;
 }
 
 .card-img, .card-img-top {
@@ -30,10 +30,20 @@
 .card-body .auteur {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
 
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     margin-left: 1rem;
-    font-size: 1.75rem;
+    font-size: 1.325rem;
   }
+}
+
+h3.card-title {
+  margin-top: 12px;
+  font-size: 1.25rem;
+}
+
+.owl-carousel {
+  display: flex;
 }

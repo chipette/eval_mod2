@@ -58,6 +58,10 @@
 
     i {
       color: $pink;
+
+      &:hover {
+        color: $blue;
+      }
     }
   }
 }
