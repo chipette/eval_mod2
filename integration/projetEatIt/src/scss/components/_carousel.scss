@@ -10,7 +10,6 @@
 }
 
 .owl-carousel .owl-nav {
-
   button.owl-prev,
   button.owl-next {
     color: $primary;
@@ -42,6 +41,10 @@
 h3.card-title {
   margin-top: 12px;
   font-size: 1.25rem;
+}
+
+.carousel_avis h3.card-title {
+  text-transform: capitalize;
 }
 
 .owl-carousel {

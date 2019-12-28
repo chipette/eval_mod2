@@ -50,7 +50,14 @@
 
       </nav>
   
-      <div class="image"><img class="mx-auto d-block" src="images/header_img_L.jpg" alt="livraison_repas"></div>
+      <div class="image"><img class="mx-auto d-block" src="images/header_img_L.jpg" alt="livraison_repas">
+          <section class="d-none d-md-block commande_rapide_header container">
+            <div class="cmde_rapide_header">
+              <h4>Je sais déjà ce que je veux, <br> je commande directement : </h4>
+              <a href="commande.html" class="btn btn-secondary badge-pill btn_cmde_rapide">Je commande</a>
+            </div>
+          </section>
+      </div>
       
     </header>
 
@@ -116,6 +123,13 @@
     </nav>
 
     <main>
+
+      <section class="d-block d-md-none commande_rapide">
+        <div class="container">
+          <h4 class="text-center">Je sais déjà ce que je veux, je commande directement : </h4>
+          <a href="commande.html" class="btn btn-secondary badge-pill btn_cmde_rapide">Je commande</a>
+        </div>
+      </section>
 
       <section class="eatEcolo" id="eatEcolo">
         <div class="container">
@@ -380,7 +394,7 @@
                   <a href="#"><img src="images/pizza2.jpg" class="card-img-top" alt="photo_plat"></a>
                   <div class="card-body">
                     <div class="auteur">
-                      <img src="images/favicon2.png" style="width:32px; height:32px;">
+                      <img src="images/favicon2.png" style="width:32px; height:32px;" alt="icone">
                       <h2>Aurélien N.</h2> <!-- php récupérer nom auteur avis -->
                     </div>
                     <h3 class="card-title">Repas servis chaud</h3> 
@@ -395,7 +409,7 @@
                 <article class="card border">
                   <div class="card-body">
                     <div class="auteur">
-                      <img src="images/favicon2.png" style="width:32px; height:32px;">
+                      <img src="images/favicon2.png" style="width:32px; height:32px;" alt="icone">
                       <h2>Ludivine522</h2> <!-- php récupérer nom auteur avis -->
                     </div>
                     <h3 class="card-title">Service un peu long</h3> 
@@ -410,7 +424,7 @@
                   <a href="#"><img src="images/falafel2.jpg" class="card-img-top" alt="photo_plat"></a>
                   <div class="card-body">
                     <div class="auteur">
-                      <img src="images/favicon2.png" style="width:32px; height:32px;">
+                      <img src="images/favicon2.png" style="width:32px; height:32px;" alt="icone">
                       <h2>Capucine L.</h2> <!-- php récupérer nom auteur avis -->
                     </div>
                     <h3 class="card-title">Bonne découverte</h3> 
@@ -457,7 +471,7 @@
 
         <ul class="navbar-nav footer_nav">
           <li class="nav-item">
-            <a class="nav-link" href="#eatEcolo">Qui sommes nous?</a>
+            <a class="nav-link" href="#eatEcolo">Nos valeurs</a>
           </li>
           <li class="nav-item ml">
             <a class="nav-link" href="#restos">Nos restaurants partenaires</a> 
@@ -470,7 +484,7 @@
           </li>
         </ul>
 
-          <p class="text-center">mathus©harline - 2019 - <a href="#">mentions légales</a></p>
+          <p class="text-center sign">mathus©harline - 2019 - <a href="#">mentions légales</a></p>
       </div><!--/container -->
     </footer>
 

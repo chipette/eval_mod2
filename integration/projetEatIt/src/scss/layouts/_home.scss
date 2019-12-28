@@ -3,11 +3,29 @@
   background-size: cover;
 }
 
+section.commande_rapide {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px 0 30px;
+
+    h4 {
+      margin-bottom: 2rem;
+    }
+
+    .btn.btn_cmde_rapide {
+      padding: 0.75rem;
+      font-size: 1.25rem;
+      color: $white;
+    }
+  }
+}
 
 section.eatEcolo {
-  // background: url(../images/degrade.svg) no-repeat;
-  // background-size: cover;
-
   .row {
     padding-top: 80px;
     justify-content: center;
@@ -20,7 +38,7 @@ section.eatEcolo {
 
 .inverse{
   @media (min-width: $bpMedium){
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
   } 
 }
 
@@ -33,15 +51,13 @@ section.eatEcolo {
 }
 
 section.partenaires {
-  // background: url(../images/degrade2.svg) no-repeat;
-  // background-size: cover;
   position: relative;
   
   @media (min-width: $bpMedium){
     padding-top: 140px;
   }
 
-  h3 a{
+  h3 a {
     color: $pink;
   }
 
@@ -61,6 +77,7 @@ section.process {
 
     @media (min-width: $bpMedium){
       flex-direction: row;
+      justify-content: space-evenly;
       align-items: flex-start;
     }
 
@@ -76,6 +93,10 @@ section.process {
       flex-basis:33.33%;
     }
 
+    &:nth-of-type(1) {
+      padding-top: 10px;
+    }
+
     img{
       margin-bottom: 20px;
 
@@ -86,23 +107,28 @@ section.process {
 
     p:nth-of-type(1) {
       font-size: 2.5rem;
-      font-weight: bold;
+      font-family: $bold;
     }
 
     p:nth-of-type(2) {
-      font-weight: bold;
+      font-family: $bold;
+      text-align: center;
     }
-  }
 
-  h2 {
-    color: $pink;
-    font-size: 2.5rem;
-    font-family: $fontDefault;
-
-    @media (min-width: $bpMedium) {
-      font-size: 3.5rem;
+    p:nth-of-type(3) {
+      text-align: center;
     }
-  }
+
+    h2 {
+      color: $pink;
+      font-size: 2.5rem;
+      font-family: $fontDefault;
+
+      @media (min-width: $bpMedium) {
+        font-size: 3.5rem;
+      }
+    }
+  }  
 }
 
 section.avis {
@@ -155,4 +181,3 @@ section.avis {
     flex-direction: row;
   }
 }
-

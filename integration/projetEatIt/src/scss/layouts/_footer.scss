@@ -5,7 +5,7 @@ footer {
   font-family: $fontDefault;
   color: $blue;
 
-  @media (min-width: $bpMedium){
+  @media (min-width: $bpLarge){
     padding-bottom: 15px;
   }
 
@@ -19,7 +19,7 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    @media (min-width: $bpMedium){
+    @media (min-width: $bpLarge){
       flex-direction: row;
       align-items: flex-end;
     }
@@ -36,13 +36,14 @@ footer {
     margin-top: 20px;
     font-size: 1.75rem;
 
-    @media (min-width: $bpMedium){
+    @media (min-width: $bpLarge){
       margin-left: 15px;
       align-items: flex-start;
     }
   
     p {
       margin-bottom: 0;
+      font-family: $fontDefault;
     }
   }
 
@@ -50,10 +51,14 @@ footer {
     display:flex;
     flex-direction: column;
 
-    @media (min-width: $bpMedium){
+    @media (min-width: $bpLarge){
       flex-direction: row;
       margin-bottom: 50px;
     }
+  }
+
+  p.sign {
+    font-family: $bold;
   }
 }
 
@@ -63,7 +68,7 @@ ul.social_nav {
   margin-top: 40px;
   margin-bottom: 40px;
 
-  @media (min-width: $bpMedium){
+  @media (min-width: $bpLarge){
     align-items: flex-end;
     margin-left: auto;
     margin-top: 0;
@@ -81,7 +86,7 @@ ul.footer_nav {
   align-items: center;
   margin-bottom: 20px;
 
-  @media (min-width: $bpMedium){
+  @media (min-width: $bpLarge){
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 100px;
